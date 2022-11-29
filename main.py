@@ -24,6 +24,14 @@
 # book1.set_discount(0.20)
 # print("The new price of the book", book1.title, "is :$", book1.get_price())
 
+#3 Inheritance
+import inheritance as inh
+
+novel1 = inh.Novel("green mountains",10, "Lance", 100, "Adventure", 300)
+
+novel1.set_discount(0.1)
+novel1.stringify()
+#print(novel1)
 
 
 
