@@ -41,4 +41,5 @@ class Academic(Book):  # Child class or a sub class
   def __init__(self, title, quantity, author, price, subject):
     super().__init__(title, quantity, author, price)
     self.subject = subject
-
+  
+  
