@@ -32,8 +32,9 @@ class Novel(Book): # Child class or a sub class
     self.pages = pages
 
   def stringify(self):
+    print("-------------------")
     print("Novel :", self.title, "\nQuantity :", self.quantity
-          ,"\nAuthor :", self.author, "\n Price :", self.price
+          ,"\nAuthor :", self.author, "\n Price :$", self.price
           ,"\nGenre :", self.genre, "\nPages : ", self.pages )
 
 class Academic(Book):  # Child class or a sub class

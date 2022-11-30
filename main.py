@@ -29,9 +29,11 @@ import inheritance as inh
 
 novel1 = inh.Novel("green mountains",10, "Lance", 100, "Adventure", 300)
 
-novel1.set_discount(0.1)
+novel2 = inh.Novel("green plains",5, "Sid", 2, "Adventure", 20)
+
 novel1.stringify()
-#print(novel1)
+novel2.stringify()
+
 
 
 
